@@ -1,0 +1,27 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    width: 922px;
+}
+
+.Nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.Link{
+    text-decoration: none;
+    color: black;
+    transition: 300ms;
+    border-bottom: 1px solid transparent;
+}
+
+.Link:hover{
+    border-color: black;
+}
+
